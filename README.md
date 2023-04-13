@@ -1,4 +1,4 @@
-I created this project to learn about useReducer. I used useRef hook too. It took 3 days (evenings), and I've done it with step-by-step plan.
+I created this project to learn about useReducer. I used useRef hook too. It took me 3 days (evenings), and I've done it with step-by-step plan.
 
 Plan:
 1. evening - simple framework by html and css. (container for todos, todo tile, color pallete)
