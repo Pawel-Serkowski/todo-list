@@ -1,0 +1,35 @@
+button {
+  outline: none;
+  color: var(--light-color);
+
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 0 10px;
+
+  cursor: pointer;
+  transition: 0.4s all;
+}
+
+.complete-button.completed {
+  background-color: var(--positive-color);
+}
+.complete-button.completed:hover {
+  background-color: var(--hover-positive-color);
+}
+.complete-button.not-completed {
+  background-color: var(--positive-color);
+}
+.complete-button.not-completed:hover {
+  background-color: var(--hover-positive-color);
+}
+
+.delete-button {
+  background-color: var(--negative-color);
+}
+.delete-button:hover {
+  background-color: var(--hover-negative-color);
+}

@@ -1,0 +1,39 @@
+.input-bar {
+  margin-top: 20px;
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-bar div {
+  width: 120px;
+}
+
+.input-bar input {
+  background: none;
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid var(--light-color);
+  color: var(--light-color);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+
+  width: 50%;
+  height: 40px;
+}
+
+.input-bar button {
+  height: 40px;
+  width: 120px;
+  color: var(--light-color);
+  background-color: var(--dark-main-color);
+  font-size: 20px;
+}
+.input-bar button:hover {
+  background-color: var(--back-dark-color);
+  color: var(--dark-main-color);
+}
